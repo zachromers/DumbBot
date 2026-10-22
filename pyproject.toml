@@ -1,0 +1,9 @@
+[project]
+name = "dumbbot"
+version = "0.1.0"
+description = "Text a Twilio number from a flip phone, get a short reply from Claude."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
